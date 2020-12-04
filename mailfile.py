@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""This script extracts informations from a file containing emails."""
+"""This script extracts informations from a mailbox file."""
 
 import sys
 import argparse
