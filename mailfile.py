@@ -21,7 +21,7 @@ def run(path):
             sys.stderr.write('ERR-001 - Encoding problem occured with message {}\n'.format(message['Message-ID']))
             continue
 
-        # filter
+        # filter (fulltext pattern matching in 'subject' field)
         if args.filter is not None:
             if args.filter in subject.lower():
                 pass
